@@ -19,6 +19,9 @@ header{
     align-items: center;
     gap: 0.5rem;
 }
+.menu, .icons img{
+    cursor: pointer;
+}
 .menu{
     display: flex;
     gap: 2rem;
@@ -77,14 +80,19 @@ header{
     width: 42px;
     height: auto;
 }
-.canal .icons-funcoes{
+ .icons-funcoes{
     display: flex;
     flex-direction: row;
     gap: 25px;
     align-items: center;
-    
 }
-.canal .icons-funcoes img{
+.icons-funcoes .icone-texto{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.icons-funcoes img{
     width: 19px;
     height: 19px;
     cursor: pointer;
@@ -135,7 +143,7 @@ header{
     margin-top: 20px;
     width: 510px;
 }
-
+/* fim main */
 
 /* aside */
 aside{
@@ -166,6 +174,3 @@ aside .txt-thumb{
     flex-direction: column;
     gap: 10px;
 }
-
-
-
